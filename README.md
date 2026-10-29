@@ -1,9 +1,9 @@
-# Ziki review comment relevance concept
+# Ziki agents — The Bug Squad
 
-This static prototype demonstrates an inline review-comment relevance check on issue #185. It places the task, Bolu's reviewer note, the agent's possible-mismatch explanation, and the human's choices together on the issue page.
+A comic-style redesign of Ziki’s agents page, using its navy and blue theme.
 
-The agent flag is a proposed interaction concept, not an existing Ziki feature. The page is served from `index.html` and can be deployed to Vercel as a static site.
+Open `index.html` in a browser or serve this repository as a static site. The page includes illustrated Contributor, Triager, Reviewer and Observer roles, icon-based role dropdowns, and a demo key-to-clipboard animation. Styles, scripts, illustrations and fonts are included in the HTML; no build step is needed.
 
-## Preview
+This is a local prototype: agent changes are saved in the browser only. Generated sample keys cannot connect to live Ziki.
 
-![Screenshot of the issue page concept](ziki-task1-mockup.png)
+The agents page replaces the previous issue-page prototype.
